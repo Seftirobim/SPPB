@@ -1,0 +1,50 @@
+.modal-header, .modal-footer{
+  background-image:url('dark_embroidery.png');
+}
+.modal-body{
+	background-image:url('lyonnette.png');
+}
+  .carousel {
+    padding-left: 50;
+    padding-right: 50;
+  }
+  div.hero-unit{
+  background-color: #E0D2F7;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+ background-image:url('skulls.png');
+ background-position: fixed;
+}
+#page {
+    padding-top: 100px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+#header
+{
+	margin: 0;
+	padding: 0;
+	border-top: 3px solid #C9E0ED;
+}
+#logo
+{
+	padding: 10px 20px;
+	font-size: 200%;
+
+}
+
+
+
+
+
+
+
+

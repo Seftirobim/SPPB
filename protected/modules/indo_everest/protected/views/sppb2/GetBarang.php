@@ -1,0 +1,39 @@
+<?php
+$this->beginWidget('zii.widgets.jui.CJuiDialog',array(
+	'id'=>'bandsdialog3',
+	'options'=>array(
+		'autoOpen'=>true,
+		'title'=>'Silahkan Mencari',
+		'modal'=>true,
+		'width'=>600,
+		))
+);
+
+$this->widget('bootstrap.widgets.TbGridView',array(
+	'id'=>'barang_grid',
+	'dataProvider'=>$model->search(),
+	'filter'=>$model,
+	'columns'=>array(
+		'kode_barang',
+		'nama_barang',
+		/*
+	    array(
+          		'header'=>'Pilih',
+        		 'type'=>'raw',
+          		 'value'=>'CHtml::button("+",array(
+              			 "onClick"=>CHtml::ajax(array(
+              			 "url"=>Yii::app()->createUrl("Sppb2/selectKode2",array("id"=>$data->primaryKey)),
+              			 "dataType"=>"json",
+             			  "success"=>"function(data){
+                  			   $(\"#Namamodel_wilayah\").val(data.satu);
+                  			   $(\"#kode_barang\").val(data.dua);
+                  			   $(\"#nama_barang\").val(data.tigo);
+                     			    $(\"#bandsdialog3\").remove();
+               			 }")
+          	  ),"id"=>"child".$data->primaryKey,"style"=>"cursor:pointer;"))',
+         ),*/
+       ),
+  ));
+$this->endWidget('zii.widgets.jui.CJuiDialog');
+
+?>

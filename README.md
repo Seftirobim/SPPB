@@ -7,6 +7,6 @@ User terdapat 3 Role yaitu :
 3. Departement : Tugasnya membuat permintaan barang, melihat status barang apakah sudah dibuatkan atau tidak.
 
 
-Tampilan lebih menarik apabila digunakan menggunakan google chrome saja.
+Tentunya aplikasi ini masih banyak kekurangan salah satuya yaitu tampilan lebih menarik / pas apabila digunakan menggunakan google chrome saja.
 
 Aplikasi dibuat menggunakan YII Framework.
